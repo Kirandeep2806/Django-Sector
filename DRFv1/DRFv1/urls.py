@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('EventKeeper.urls'), name=''),
+    path('', include('EventKeeper.urls'), name='event-keeper'),
 ]
